@@ -34,5 +34,13 @@ public class Main {
                 System.out.println(num);
             }
         }
+
+      //課題3 コマンドライン引数が２個渡されたと仮定し、コマンドライン引数の２個目の値をコンソールに出力してください。
+        //"java Main hoge1 hoge2"で実行すると"hoge2"と出力される
+        if(args.length >= 2){
+          System.out.println(args[1]);
+        }else{
+          System.out.println("※コマンドライン引数が２つ以上渡されていないので課題３は実行されませんでした");
+        }
     }
 }
